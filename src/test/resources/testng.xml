@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite">
+    <listeners>
+        <listener class-name="utilities.ExtentTestListener" />
+    </listeners>
+
+    <test name="SearchInputTest">
+        <classes>
+            <class name="tests.SearchInputTest"/>
+        </classes>
+    </test>
+    <test name="SignUpButtonTest">
+        <classes>
+            <class name="tests.SignUpButtonTest"/>
+        </classes>
+    </test>
+</suite>
